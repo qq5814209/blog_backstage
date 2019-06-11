@@ -1,0 +1,14 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.mapper.BlogInfoMapper">
+
+
+<!--    查询所有博客信息-->
+    <select id="selectBlogInfo" resultType="com.me.vo.WZCZVo">
+        SELECT bi.blog_id,bi.blog_title,bt.type_name,ui.name,bi.`create_time` FROM bloginfo bi,blog_type bt,userinfo ui,user_blog ub
+        WHERE bi.`bt_id`=bt.`bt_id` AND ub.`user_id`=ui.`user_id` AND ub.`blog_id`=bi.`blog_id`
+    </select>
+
+
+</mapper>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blog_backstage:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>blog_backstage</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="blog_backstage-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="blog_backstage:war exploded" />
+    </root>
+  </artifact>
+</component>

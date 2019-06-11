@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="blog_backstage:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="863057a7-383d-477e-a8a0-bcc948e3f0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/blog_backstage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_com_springsource_org_aspectj_weaver_1_6_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/BlogInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/Favorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/pojotest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/util/Md5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MySql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/Layui-KnifeZ/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/ace/ace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/ace/ext-searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/ace/mode-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/ace/snippets/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/ace/theme-tomorrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Content/ace/worker-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add_adsense.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add_friendship_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add_news_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add_role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add_trading_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adduser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adsense.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/authstr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/city.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/theme1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/theme2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/theme3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/theme4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/theme5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/data_audit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detailed_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detailed_information_cooperative.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detailed_information_farm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detailed_information_unit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fontAlibaba/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/friendship_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/head_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/information_management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/xcity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/launch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/news_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project_approval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project_audit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project_management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project_release.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/rolelist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/trading_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/trading_center2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/userlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/welcome1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/ace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/ext-searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/mode-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/snippets/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/theme-tomorrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/worker-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/MySql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlogInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_adsense.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_friendship_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_news_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_trading_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/adduser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/adsense.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/authstr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/city.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/data_audit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_cooperative.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_farm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_unit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/friendship_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/head_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/information_management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/js/xcity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/launch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/news_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_approval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_audit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_release.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/role-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/rolelist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/trading_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/trading_center2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/userlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/welcome1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MySql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="177" column="16" lean-forward="true" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/project_management.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="235" column="24" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project_management.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/userlist.html" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog_backstage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/blog_backstage.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_com_springsource_org_aspectj_weaver_1_6_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1385" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.me.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MavenProject\blog_backstage\src\main\webapp" />
+      <recent name="F:\MavenProject\blog_backstage\src\main\webapp\js" />
+      <recent name="F:\MavenProject\blog_backstage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.40" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/login.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="blog_backstage:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_backstage" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52225" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="52226" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blog_backstage:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="863057a7-383d-477e-a8a0-bcc948e3f0d1" name="Default Changelist" comment="" />
+      <created>1560148753387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560148753387</updated>
+      <workItem from="1560148754638" duration="10763000" />
+      <workItem from="1560215789878" duration="11725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22488000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5552408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Content/ace/ace.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Collect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Favorites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/BlogInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/MySql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="119" column="75" selection-start-line="119" selection-start-column="67" selection-end-line="119" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/pojotest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/CollectVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/FavoritesVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="235" column="24" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="177" column="16" lean-forward="true" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
