@@ -1,0 +1,47 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.mapper.VipInfoMapper">
+
+    <!--查询所有Vip套餐-->
+    <select id="selectVipInfo" resultType="com.me.pojo.VipInfo">
+        select *from vip where status=1
+    </select>
+
+    <!--修改页根据vip_id回显-->
+    <select id="getVipInfoById" parameterType="int" resultType="com.me.pojo.VipInfo">
+        select *from vip where status=1 and vip_id=#{vip_id}
+    </select>
+
+    <!--修改页根据vip_id修改套餐-->
+    <update id="updateVipInfoById" parameterType="com.me.pojo.VipInfo">
+        update vip
+        <set>
+            <if test="vip_name!=null and vip_name!=''">
+                vip_name=#{vip_name},
+            </if>
+            <if test="vip_time!=null and vip_time!=''">
+                vip_time=#{vip_time},
+            </if>
+            <if test="vip_price!=null and vip_price!=''">
+                vip_price=#{vip_price},
+            </if>
+            <if test="vip_down!=null and vip_down!=''">
+                vip_down=#{vip_down}
+            </if>
+        </set>
+        where vip_id=#{vip_id}
+    </update>
+
+    <!--根据vip_id删除套餐-->
+    <update id="deleteVipInfoById" parameterType="int">
+        update vip set status=0 where vip_id=#{vip_id}
+    </update>
+
+    <!--添加vip套餐-->
+    <insert id="addVipInfo" parameterType="com.me.pojo.VipInfo">
+        insert into
+        vip(vip_name,vip_time,vip_price,vip_down)
+        values (#{vip_name},#{vip_time},#{vip_price},#{vip_down})
+    </insert>
+</mapper>

@@ -8,19 +8,19 @@ package com.me.vo;
 public class WZCZVo {
     private int blog_id;
     private String blog_title;
-    private String blog_type;
+    private String type_name;
     private String name;
-    private String creat_time;
+    private String create_time;
     private int commentCount;
     private int browseCount;
     private int praiseCount;
 
-    public WZCZVo(int blog_id, String blog_title, String blog_type, String name, String creat_time, int commentCount, int browseCount, int praiseCount) {
+    public WZCZVo(int blog_id, String blog_title, String type_name, String name, String create_time, int commentCount, int browseCount, int praiseCount) {
         this.blog_id = blog_id;
         this.blog_title = blog_title;
-        this.blog_type = blog_type;
+        this.type_name = type_name;
         this.name = name;
-        this.creat_time = creat_time;
+        this.create_time = create_time;
         this.commentCount = commentCount;
         this.browseCount = browseCount;
         this.praiseCount = praiseCount;
@@ -33,60 +33,60 @@ public class WZCZVo {
         return blog_id;
     }
 
-    public String getBlog_title() {
-        return blog_title;
-    }
-
-    public String getBlog_type() {
-        return blog_type;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getCreat_time() {
-        return creat_time;
-    }
-
-    public int getCommentCount() {
-        return commentCount;
-    }
-
-    public int getBrowseCount() {
-        return browseCount;
-    }
-
-    public int getPraiseCount() {
-        return praiseCount;
-    }
-
     public void setBlog_id(int blog_id) {
         this.blog_id = blog_id;
+    }
+
+    public String getBlog_title() {
+        return blog_title;
     }
 
     public void setBlog_title(String blog_title) {
         this.blog_title = blog_title;
     }
 
-    public void setBlog_type(String blog_type) {
-        this.blog_type = blog_type;
+    public String getType_name() {
+        return type_name;
+    }
+
+    public void setType_name(String type_name) {
+        this.type_name = type_name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setCreat_time(String creat_time) {
-        this.creat_time = creat_time;
+    public String getCreate_time() {
+        return create_time;
+    }
+
+    public void setCreate_time(String create_time) {
+        this.create_time = create_time;
+    }
+
+    public int getCommentCount() {
+        return commentCount;
     }
 
     public void setCommentCount(int commentCount) {
         this.commentCount = commentCount;
     }
 
+    public int getBrowseCount() {
+        return browseCount;
+    }
+
     public void setBrowseCount(int browseCount) {
         this.browseCount = browseCount;
+    }
+
+    public int getPraiseCount() {
+        return praiseCount;
     }
 
     public void setPraiseCount(int praiseCount) {
@@ -98,9 +98,9 @@ public class WZCZVo {
         return "WZCZVo{" +
                 "blog_id=" + blog_id +
                 ", blog_title='" + blog_title + '\'' +
-                ", blog_type='" + blog_type + '\'' +
+                ", type_name='" + type_name + '\'' +
                 ", name='" + name + '\'' +
-                ", creat_time='" + creat_time + '\'' +
+                ", create_time='" + create_time + '\'' +
                 ", commentCount=" + commentCount +
                 ", browseCount=" + browseCount +
                 ", praiseCount=" + praiseCount +

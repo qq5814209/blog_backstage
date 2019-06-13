@@ -5,10 +5,7 @@ import com.me.service.UserInfoService;
 import com.me.vo.UserInfoVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -24,29 +21,31 @@ public class UserInfoController {
 
     /**
      * 登录
+     *
      * @param user
      * @param password
      * @return
      */
 
     @ResponseBody
-    @RequestMapping(value = "userLogin",method = RequestMethod.POST)
-    public Object login(String user, String password,HttpSession session){
-        System.out.println(user + " : "+password);
-        UserInfo userInfo = userInfoService.login(user,password);
+    @RequestMapping(value = "userLogin", method = RequestMethod.POST)
+    public Object login(String user, String password, HttpSession session) {
+        System.out.println(user + " : " + password);
+        UserInfo userInfo = userInfoService.login(user, password);
         System.out.println(userInfo);
-        session.setAttribute("userInfo",userInfo);
+        session.setAttribute("userInfo", userInfo);
         return userInfo;
     }
 
     /**
      * 判断是否登录
+     *
      * @param session
      * @return
      */
     @ResponseBody
-    @RequestMapping(value = "islogin",method = RequestMethod.GET)
-    public Object islogin(HttpSession session){
+    @RequestMapping(value = "islogin", method = RequestMethod.GET)
+    public Object islogin(HttpSession session) {
         UserInfo userInfo = (UserInfo) session.getAttribute("userInfo");
         System.out.println(userInfo);
         return userInfo;
@@ -54,14 +53,58 @@ public class UserInfoController {
 
     /**
      * 用户管理用户列表展示
+     *
      * @return
      */
     @ResponseBody
-    @RequestMapping(value = "selectUserInfo",method = RequestMethod.POST)
-    public Object selectUserInfo(){
-        List<UserInfoVo> userInfoVos=userInfoService.selectUserInfo();
-        System.out.println(userInfoVos);
+    @RequestMapping("selectUserInfo")
+    public Object selectUserInfo() {
+        List<UserInfoVo> userInfoVos = userInfoService.selectUserInfo();
         return userInfoVos;
+    }
+
+    /**
+     * 修改页根据user_id回显
+     *
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("getUserInfoById")
+    public Object getUserInfoById(@RequestParam int user_id) {
+        return userInfoService.getUserInfoById(user_id);
+    }
+
+    /**
+     * 修改页根据user_id修改用户
+     *
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("updateUserInfo")
+    public Object updateUserInfo(@RequestBody UserInfo userInfo) {
+        int i = userInfoService.updateUserInfoById(userInfo);
+        System.out.println(i);
+        if (i > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * 根据user_id删除用户
+     * @param user_id
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("deleteUserInfoById")
+    public Object deleteUserInfoById(@RequestParam int user_id) {
+        int i = userInfoService.deleteUserInfoById(user_id);
+        if (i != 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 

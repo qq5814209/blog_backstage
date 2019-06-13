@@ -1,0 +1,57 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.mapper.OrderInfoMapper">
+
+    <!--查询所有已完成订单-->
+    <select id="selectCompletedOrderInfo" resultType="com.me.pojo.Order">
+        select *from `order` where status=1
+    </select>
+
+    <!--查询所有未完成订单-->
+    <select id="selectBacklogOrderInfo" resultType="com.me.pojo.Order">
+        select *from `order` where status=0
+    </select>
+
+    <!--修改页根据order_id回显-->
+    <select id="getOrderById" parameterType="int" resultType="com.me.pojo.Order">
+        select *from `order` where  order_id=#{order_id}
+    </select>
+
+    <!--修改页根据order_id修改订单-->
+    <update id="updateOrderById" parameterType="com.me.pojo.Order">
+        update `order`
+        <set>
+            <if test="user_id!=null and user_id!=''">
+                user_id=#{user_id},
+            </if>
+            <if test="cbi_id!=null and cbi_id!=''">
+                cbi_id=#{cbi_id},
+            </if>
+            <if test="vip_id!=null and vip_id!=''">
+                vip_id=#{vip_id},
+            </if>
+            <if test="price!=null and price!=''">
+                price=#{price},
+            </if>
+            <if test="cbi_number!=null and cbi_number!=''">
+                cbi_number=#{cbi_number},
+            </if>
+            <if test="vip_time!=null and vip_time!=''">
+                vip_time=#{vip_time},
+            </if>
+            <if test="order_time!=null and order_time!=''">
+                order_time=#{order_time},
+            </if>
+            <if test="order_number!=null and order_number!=''">
+                order_number=#{order_number}
+            </if>
+        </set>
+        where order_id=#{order_id}
+    </update>
+
+    <!--根据order_id删除订单-->
+    <update id="deleteCompletedOrderById" parameterType="int">
+        update `order` set status=0 where order_id=#{order_id}
+    </update>
+</mapper>

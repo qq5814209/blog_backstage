@@ -39,4 +39,32 @@ public class UserInfoServiceImpl implements UserInfoService {
     public List<UserInfoVo> selectUserInfo() {
         return userInfoMapper.selectUserInfo();
     }
+
+    /**
+     * 修改页根据user_id回显
+     * @param user_id
+     * @return
+     */
+    public Object getUserInfoById(int user_id) {
+        return userInfoMapper.getUserInfoById(user_id);
+    }
+
+    /**
+     * 修改页根据user_id修改用户
+     * @param userInfo
+     * @return
+     */
+    public int updateUserInfoById(UserInfo userInfo) {
+        int i =userInfoMapper.updateUserInfoById(userInfo);
+        return i;
+    }
+
+    /**
+     * 根据user_id删除用户
+     * @param user_id
+     * @return
+     */
+    public int deleteUserInfoById(int user_id) {
+        return userInfoMapper.deleteUserInfoById(user_id);
+    }
 }

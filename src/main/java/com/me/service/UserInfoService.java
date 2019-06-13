@@ -25,6 +25,24 @@ public interface UserInfoService {
      */
     List<UserInfoVo> selectUserInfo();
 
+    /**
+     * 修改页根据user_id回显
+     * @param user_id
+     * @return
+     */
+    Object getUserInfoById(int user_id);
 
+    /**
+     * 修改页根据user_id修改用户
+     * @param userInfo
+     * @return
+     */
+    int updateUserInfoById(UserInfo userInfo);
 
+    /**
+     * 根据user_id删除用户
+     * @param user_id
+     * @return
+     */
+    int deleteUserInfoById(int user_id);
 }

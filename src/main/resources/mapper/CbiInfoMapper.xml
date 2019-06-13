@@ -1,0 +1,44 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.mapper.CbiInfoMapper">
+
+    <!--查询所有C币套餐-->
+    <select id="selectCbiInfo" resultType="com.me.pojo.CbiInfo">
+        select *from cbi where status=1
+    </select>
+
+    <!--修改页根据cbi_id回显-->
+    <select id="getCbiInfoById" parameterType="int" resultType="com.me.pojo.CbiInfo">
+        select *from cbi where status=1 and cbi_id=#{cbi_id}
+    </select>
+
+    <!--修改页根据cbi_id修改套餐-->
+    <update id="updateCbiInfoById" parameterType="com.me.pojo.CbiInfo">
+        update cbi
+        <set>
+            <if test="cbi_name!=null and cbi_name!=''">
+                cbi_name=#{cbi_name},
+            </if>
+            <if test="cbi_number!=null and cbi_number!=''">
+                cbi_number=#{cbi_number},
+            </if>
+            <if test="cbi_price!=null and cbi_price!=''">
+                cbi_price=#{cbi_price},
+            </if>
+        </set>
+        where cbi_id=#{cbi_id}
+    </update>
+
+    <!--根据cbi_id删除套餐-->
+    <update id="deleteCbiInfoById" parameterType="int">
+        update cbi set status=0 where cbi_id=#{cbi_id}
+    </update>
+
+    <!--添加C币套餐-->
+    <insert id="addCbiInfo" parameterType="com.me.pojo.CbiInfo">
+        insert into
+        cbi(cbi_name,cbi_number,cbi_price)
+        values (#{cbi_name},#{cbi_number},#{cbi_price})
+    </insert>
+</mapper>

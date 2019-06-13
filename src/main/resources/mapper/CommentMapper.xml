@@ -1,0 +1,39 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.mapper.CommentMapper">
+    <!--查询所有评论-->
+    <select id="selectComment" resultType="com.me.pojo.Comment">
+        select *from comment1 where status=1
+    </select>
+
+    <!--修改页根据comment_id回显-->
+    <select id="getCommentById" parameterType="int" resultType="com.me.pojo.Comment">
+        select *from comment1 where status=1 and comment_id=#{comment_id}
+    </select>
+
+    <!--修改页根据comment_id修改评论-->
+    <update id="updateCommentById" parameterType="com.me.pojo.Comment">
+        update comment1
+        <set>
+            <if test="user_id!=null and user_id!=''">
+                user_id=#{user_id},
+            </if>
+            <if test="blog_id!=null and blog_id!=''">
+                blog_id=#{blog_id},
+            </if>
+            <if test="comment_content!=null and comment_content!=''">
+                comment_content=#{comment_content},
+            </if>
+            <if test="comment_time!=null and comment_time!=''">
+                comment_time=#{comment_time}
+            </if>
+        </set>
+        where comment_id=#{comment_id}
+    </update>
+
+    <!--根据comment_id删除评论-->
+    <update id="deleteCommentById" parameterType="int">
+        update comment1 set status=0 where comment_id=#{comment_id}
+    </update>
+</mapper>

@@ -7,8 +7,32 @@
 <!--    查询所有博客信息-->
     <select id="selectBlogInfo" resultType="com.me.vo.WZCZVo">
         SELECT bi.blog_id,bi.blog_title,bt.type_name,ui.name,bi.`create_time` FROM bloginfo bi,blog_type bt,userinfo ui,user_blog ub
-        WHERE bi.`bt_id`=bt.`bt_id` AND ub.`user_id`=ui.`user_id` AND ub.`blog_id`=bi.`blog_id`
+        WHERE bi.`bt_id`=bt.`bt_id` AND ub.`user_id`=ui.`user_id` AND ub.`blog_id`=bi.`blog_id` AND bi.status = 1
     </select>
 
+<!--    修改页根据blog_id回显-->
+    <select id="getBlogInfoById" parameterType="int" resultType="com.me.vo.WZCZVo">
+        SELECT bi.blog_id,bi.blog_title,bt.type_name,ui.name,bi.`create_time` FROM bloginfo bi,blog_type bt,userinfo ui,user_blog ub
+        WHERE bi.`bt_id`=bt.`bt_id` AND ub.`user_id`=ui.`user_id` AND ub.`blog_id`=bi.`blog_id` AND bi.`status`=1
+        AND bi.`blog_id`=#{blog_id}
+    </select>
 
+<!--    修改页根据blog_id修改文章-->
+    <update id="updateBlogInfoById" parameterType="com.me.pojo.BlogInfo">
+        update bloginfo
+        <set>
+            <if test="blog_title!=null and blog_title!=''">
+                blog_title=#{blog_title},
+            </if>
+            <if test="bt_id!=null and bt_id!=''">
+                bt_id=#{bt_id}
+            </if>
+        </set>
+        where blog_id=#{blog_id}
+    </update>
+
+<!--    根据blog_id删除文章-->
+    <update id="deleteBlogInfoById" parameterType="int">
+        update bloginfo set status=0 where blog_id=#{blog_id}
+    </update>
 </mapper>
