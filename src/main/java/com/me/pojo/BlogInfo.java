@@ -19,6 +19,7 @@ public class BlogInfo {
 //    状态码
     private int status;
 
+
     public int getBlog_id() {
         return blog_id;
     }
@@ -67,15 +68,5 @@ public class BlogInfo {
         this.status = status;
     }
 
-    @Override
-    public String toString() {
-        return "BlogInfo{" +
-                "blog_id=" + blog_id +
-                ", blog_title='" + blog_title + '\'' +
-                ", blog_content=" + blog_content +
-                ", bt_id=" + bt_id +
-                ", create_time=" + create_time +
-                ", status=" + status +
-                '}';
-    }
+
 }

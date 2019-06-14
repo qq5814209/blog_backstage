@@ -1,5 +1,8 @@
 package com.me.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.me.pojo.CbiInfo;
 import com.me.pojo.VipInfo;
 import com.me.service.VipInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,9 +31,11 @@ public class VipInfoController {
      */
     @ResponseBody
     @RequestMapping("selectVipInfo")
-    public Object selectVipInfo() {
+    public Object selectVipInfo(@RequestBody VipInfo vipInfo) {
+        PageHelper.startPage(vipInfo.getCurrentPage(), vipInfo.getPageSize());
         List<VipInfo> vipInfos = vipInfoService.selectVipInfo();
-        return vipInfos;
+        PageInfo<VipInfo> cbiInfoPageInfo = new PageInfo<VipInfo>(vipInfos);
+        return cbiInfoPageInfo;
     }
 
     /**

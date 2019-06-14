@@ -26,10 +26,13 @@ public class Order {
     //订单号
     private String order_number;
 
+    private int currentPage;//当前页
+    private int pageSize;//当前页数据条数
+
     public Order() {
     }
 
-    public Order(int order_id, int user_id, int cbi_id, int vip_id, Double price, int cbi_number, String vip_time, String order_time, int status, String order_number) {
+    public Order(int order_id, int user_id, int cbi_id, int vip_id, Double price, int cbi_number, String vip_time, String order_time, int status, String order_number, int currentPage, int pageSize) {
         this.order_id = order_id;
         this.user_id = user_id;
         this.cbi_id = cbi_id;
@@ -40,6 +43,24 @@ public class Order {
         this.order_time = order_time;
         this.status = status;
         this.order_number = order_number;
+        this.currentPage = currentPage;
+        this.pageSize = pageSize;
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
     public int getOrder_id() {
@@ -135,6 +156,8 @@ public class Order {
                 ", order_time='" + order_time + '\'' +
                 ", status=" + status +
                 ", order_number='" + order_number + '\'' +
+                ", currentPage=" + currentPage +
+                ", pageSize=" + pageSize +
                 '}';
     }
 }

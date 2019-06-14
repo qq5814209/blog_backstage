@@ -1,5 +1,7 @@
 package com.me.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.me.pojo.Comment;
 import com.me.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +28,11 @@ public class CommentController {
      */
     @ResponseBody
     @RequestMapping("selectComment")
-    public Object selectComment() {
+    public Object selectComment(@RequestBody Comment comment) {
+        PageHelper.startPage(comment.getCurrentPage(), comment.getPageSize());
         List<Comment> comments = commentService.selectComment();
-        return comments;
+        PageInfo<Comment> commentPageInfo = new PageInfo<Comment>(comments);
+        return commentPageInfo;
     }
 
     /**

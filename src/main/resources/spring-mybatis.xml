@@ -27,13 +27,14 @@
         <!--分页插件-->
         <property name="typeAliasesPackage" value="com.qf.pojo"></property>
         <!-- other configuration -->
+        <!-- other configuration -->
         <property name="plugins">
             <array>
                 <bean class="com.github.pagehelper.PageInterceptor">
                     <property name="properties">
                         <!-- config params as the following -->
                         <value>
-                        param1=mysql
+                            helperDialect=mysql
                         </value>
                     </property>
                 </bean>

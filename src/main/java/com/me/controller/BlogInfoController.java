@@ -1,5 +1,7 @@
 package com.me.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.me.pojo.BlogInfo;
 import com.me.service.BlogInfoService;
 import com.me.vo.WZCZVo;
@@ -28,9 +30,11 @@ public class BlogInfoController {
      */
     @ResponseBody
     @RequestMapping("selectBlogInfo")
-    public Object selectBlogInfo() {
+    public Object selectBlogInfo(@RequestBody WZCZVo wzczVo) {
+        PageHelper.startPage(wzczVo.getCurrentPage(), wzczVo.getPageSize());
         List<WZCZVo> wzczVos = blogInfoService.selectBlogInfo();
-        return wzczVos;
+        PageInfo<WZCZVo> wzczPageInfo = new PageInfo<WZCZVo>(wzczVos);
+        return wzczPageInfo;
     }
 
     /**

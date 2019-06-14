@@ -21,17 +21,38 @@ public class VipInfo {
     private int status;
     private int vip_down;
 
+    private int currentPage;//当前页
+    private int pageSize;//当前页数据条数
+
 
     public VipInfo() {
     }
 
-    public VipInfo(int vip_id, String vip_name, String vip_time, Double vip_price, int status, int vip_down) {
+    public VipInfo(int vip_id, String vip_name, String vip_time, Double vip_price, int status, int vip_down, int currentPage, int pageSize) {
         this.vip_id = vip_id;
         this.vip_name = vip_name;
         this.vip_time = vip_time;
         this.vip_price = vip_price;
         this.status = status;
         this.vip_down = vip_down;
+        this.currentPage = currentPage;
+        this.pageSize = pageSize;
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
     public int getVip_id() {
@@ -91,6 +112,8 @@ public class VipInfo {
                 ", vip_price=" + vip_price +
                 ", status=" + status +
                 ", vip_down=" + vip_down +
+                ", currentPage=" + currentPage +
+                ", pageSize=" + pageSize +
                 '}';
     }
 }

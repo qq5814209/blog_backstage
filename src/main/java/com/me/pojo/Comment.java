@@ -24,10 +24,13 @@ public class Comment {
     //状态
     private int status;
 
+    private int currentPage;//当前页
+    private int pageSize;//当前页数据条数
+
     public Comment() {
     }
 
-    public Comment(int comment_id, int user_id, int blog_id, String comment_content, int parent_id, String comment_time, int status) {
+    public Comment(int comment_id, int user_id, int blog_id, String comment_content, int parent_id, String comment_time, int status, int currentPage, int pageSize) {
         this.comment_id = comment_id;
         this.user_id = user_id;
         this.blog_id = blog_id;
@@ -35,6 +38,24 @@ public class Comment {
         this.parent_id = parent_id;
         this.comment_time = comment_time;
         this.status = status;
+        this.currentPage = currentPage;
+        this.pageSize = pageSize;
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
     public int getComment_id() {
@@ -103,6 +124,8 @@ public class Comment {
                 ", parent_id=" + parent_id +
                 ", comment_time='" + comment_time + '\'' +
                 ", status=" + status +
+                ", currentPage=" + currentPage +
+                ", pageSize=" + pageSize +
                 '}';
     }
 }
