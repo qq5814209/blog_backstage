@@ -1,0 +1,28 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.mapper.StatisticalMapper">
+
+    <!--获取前几天，每天博客的发表数-->
+    <select id="getPublishes" resultType="com.me.vo.StatisticalVo">
+        SELECT * FROM
+        <foreach collection="array" item="day" separator=",">
+            (
+            SELECT COUNT(*) day#{day} FROM bloginfo WHERE create_time BETWEEN
+            (SELECT DATE_SUB(NOW(),INTERVAL #{day} DAY)) AND (SELECT DATE_SUB(NOW(),INTERVAL #{day}-1 DAY))
+            ) tb#{day}
+        </foreach>
+    </select>
+
+    <!--获取前几天，每天的阅读量-->
+    <select id="getReadingQuantity" resultType="com.me.vo.StatisticalVo">
+        SELECT * FROM
+        <foreach collection="array" item="day" separator=",">
+            (
+            SELECT COUNT(*) day#{day} FROM browse WHERE browse_time BETWEEN
+            (SELECT DATE_SUB(NOW(),INTERVAL #{day} DAY)) AND (SELECT DATE_SUB(NOW(),INTERVAL #{day}-1 DAY))
+            ) tb#{day}
+        </foreach>
+    </select>
+
+</mapper>

@@ -47,7 +47,6 @@ public class BlogInfoController {
     public Object selectAuditBlogInfo(@RequestBody WZSHVo wzshVo) {
         PageHelper.startPage(wzshVo.getCurrentPage(), wzshVo.getPageSize());
         List<WZSHVo> wzshVos = blogInfoService.selectAuditBlogInfo();
-        System.out.println(wzshVos);
         PageInfo<WZSHVo> wzshPageInfo = new PageInfo<WZSHVo>(wzshVos);
         return wzshPageInfo;
     }
