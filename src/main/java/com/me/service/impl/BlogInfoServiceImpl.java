@@ -3,6 +3,7 @@ import com.me.mapper.BlogInfoMapper;
 import com.me.pojo.BlogInfo;
 import com.me.service.BlogInfoService;
 import com.me.vo.WZCZVo;
+import com.me.vo.WZSHVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -27,6 +28,15 @@ public class BlogInfoServiceImpl implements BlogInfoService {
     public List<WZCZVo> selectBlogInfo() {
         List<WZCZVo> wzczVos = blogInfoMapper.selectBlogInfo();
         return wzczVos;
+    }
+
+    /**
+     * 查询所有博客信息审核状态
+     * @return
+     */
+    public List<WZSHVo> selectAuditBlogInfo() {
+        List<WZSHVo> wzshVos = blogInfoMapper.selectAuditBlogInfo();
+        return wzshVos;
     }
 
     /**
@@ -57,5 +67,23 @@ public class BlogInfoServiceImpl implements BlogInfoService {
     public int deleteBlogInfoById(int blog_id) {
         int i=blogInfoMapper.deleteBlogInfoById(blog_id);
         return i;
+    }
+
+    /**
+     * 根据blog_id审核文章
+     * @param blog_id
+     * @return
+     */
+    public int AuditBlogInfoById(int blog_id) {
+        return blogInfoMapper.AuditBlogInfoById(blog_id);
+    }
+
+    /**
+     * 根据blog_id不展示文章
+     * @param blog_id
+     * @return
+     */
+    public int soldOutBlogInfoById(int blog_id) {
+        return blogInfoMapper.soldOutBlogInfoById(blog_id);
     }
 }

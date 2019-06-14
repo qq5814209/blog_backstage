@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.me.pojo.BlogInfo;
 import com.me.service.BlogInfoService;
 import com.me.vo.WZCZVo;
+import com.me.vo.WZSHVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,6 +36,20 @@ public class BlogInfoController {
         List<WZCZVo> wzczVos = blogInfoService.selectBlogInfo();
         PageInfo<WZCZVo> wzczPageInfo = new PageInfo<WZCZVo>(wzczVos);
         return wzczPageInfo;
+    }
+    /**
+     * 查询所有博客信息审核状态
+     *
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("selectAuditBlogInfo")
+    public Object selectAuditBlogInfo(@RequestBody WZSHVo wzshVo) {
+        PageHelper.startPage(wzshVo.getCurrentPage(), wzshVo.getPageSize());
+        List<WZSHVo> wzshVos = blogInfoService.selectAuditBlogInfo();
+        System.out.println(wzshVos);
+        PageInfo<WZSHVo> wzshPageInfo = new PageInfo<WZSHVo>(wzshVos);
+        return wzshPageInfo;
     }
 
     /**
@@ -81,4 +96,37 @@ public class BlogInfoController {
             return false;
         }
     }
+    /**
+     * 根据blog_id审核文章
+     * @param blog_id
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("AuditBlogInfoById")
+    public Object AuditBlogInfoById(@RequestParam int blog_id){
+        int i = blogInfoService.AuditBlogInfoById(blog_id);
+        if(i!=0){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    /**
+     * 根据blog_id不展示文章
+     * @param blog_id
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("soldOutBlogInfoById")
+    public Object soldOutBlogInfoById(@RequestParam int blog_id){
+        int i = blogInfoService.soldOutBlogInfoById(blog_id);
+        if(i!=0){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+
 }

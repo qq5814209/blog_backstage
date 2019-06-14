@@ -2,6 +2,7 @@ package com.me.mapper;
 
 import com.me.pojo.BlogInfo;
 import com.me.vo.WZCZVo;
+import com.me.vo.WZSHVo;
 
 import java.util.List;
 
@@ -11,6 +12,13 @@ public interface BlogInfoMapper {
      * @return
      */
     List<WZCZVo> selectBlogInfo();
+
+
+    /**
+     *查询所有博客信息审核状态
+     * @return
+     */
+    List<WZSHVo> selectAuditBlogInfo();
 
     /**
      * 修改页根据blog_id回显
@@ -32,4 +40,18 @@ public interface BlogInfoMapper {
      * @return
      */
     int deleteBlogInfoById(int blog_id);
+
+    /**
+     * 根据blog_id审核文章
+     * @param blog_id
+     * @return
+     */
+    int AuditBlogInfoById(int blog_id);
+
+    /**
+     * 根据blog_id不展示文章
+     * @param blog_id
+     * @return
+     */
+    int soldOutBlogInfoById(int blog_id);
 }

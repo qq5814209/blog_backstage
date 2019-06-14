@@ -4,20 +4,29 @@
 <mapper namespace="com.me.mapper.BlogInfoMapper">
 
 
-<!--    查询所有博客信息-->
+    <!--    查询所有博客信息-->
     <select id="selectBlogInfo" resultType="com.me.vo.WZCZVo">
-        SELECT bi.blog_id,bi.blog_title,bt.type_name,ui.name,bi.`create_time` FROM bloginfo bi,blog_type bt,userinfo ui,user_blog ub
-        WHERE bi.`bt_id`=bt.`bt_id` AND ub.`user_id`=ui.`user_id` AND ub.`blog_id`=bi.`blog_id` AND bi.status = 1
+        SELECT tb1.blog_id,tb1.blog_title,bt.`type_name`,u.name,tb1.create_time FROM(SELECT * FROM bloginfo b WHERE b.`status`=1)AS tb1 LEFT JOIN blog_type bt ON tb1.bt_id=bt.bt_id
+        LEFT JOIN user_blog ub ON ub.`blog_id`=tb1.blog_id
+        LEFT JOIN userinfo u ON u.user_id=ub.`user_id`
+        ORDER BY tb1.blog_id ASC
     </select>
 
-<!--    修改页根据blog_id回显-->
+    <!--查询所有博客信息审核状态-->
+    <select id="selectAuditBlogInfo" resultType="com.me.vo.WZSHVo">
+        SELECT b.blog_id,b.blog_title,bt.type_name,u.name,b.create_time,b.status FROM bloginfo b LEFT JOIN blog_type bt ON b.bt_id=bt.bt_id
+        LEFT JOIN user_blog ub ON ub.`blog_id`=b.blog_id
+        LEFT JOIN userinfo u ON u.user_id=ub.`user_id`
+        ORDER BY b.status ASC
+    </select>
+    <!--修改页根据blog_id回显-->
     <select id="getBlogInfoById" parameterType="int" resultType="com.me.vo.WZCZVo">
         SELECT bi.blog_id,bi.blog_title,bt.type_name,ui.name,bi.`create_time` FROM bloginfo bi,blog_type bt,userinfo ui,user_blog ub
         WHERE bi.`bt_id`=bt.`bt_id` AND ub.`user_id`=ui.`user_id` AND ub.`blog_id`=bi.`blog_id` AND bi.`status`=1
         AND bi.`blog_id`=#{blog_id}
     </select>
 
-<!--    修改页根据blog_id修改文章-->
+    <!--修改页根据blog_id修改文章-->
     <update id="updateBlogInfoById" parameterType="com.me.pojo.BlogInfo">
         update bloginfo
         <set>
@@ -31,8 +40,17 @@
         where blog_id=#{blog_id}
     </update>
 
-<!--    根据blog_id删除文章-->
+    <!--根据blog_id删除文章-->
     <update id="deleteBlogInfoById" parameterType="int">
+        update bloginfo set status=0 where blog_id=#{blog_id}
+    </update>
+
+    <!--根据blog_id审核文章-->
+    <update id="AuditBlogInfoById" parameterType="int">
+        update bloginfo set status=1 where blog_id=#{blog_id}
+    </update>
+    <!--根据blog_id不展示文章-->
+    <update id="soldOutBlogInfoById" parameterType="int">
         update bloginfo set status=0 where blog_id=#{blog_id}
     </update>
 </mapper>
