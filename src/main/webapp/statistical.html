@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi"/>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/xadmin.css">
+    <script src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/xadmin.js"></script>
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body ">
+                    <form class="layui-form layui-col-space5">
+                        <div class="layui-input-inline layui-show-xs-block">
+                            <input type="text" name="day" placeholder="请输入天数" autocomplete="off" class="layui-input">
+                        </div>
+
+                        <!--<div class="layui-input-inline layui-show-xs-block">-->
+                        <!--<select name="contrller">-->
+                        <!--<option>用户身份</option>-->
+                        <!--<option>普通用户</option>-->
+                        <!--<option>会员</option>-->
+                        <!--<option>超级会员</option></select>-->
+                        <!--</div>-->
+
+                        <div class="layui-input-inline lafite_search layui-show-xs-block">
+                            <button class="layui-btn" lay-submit="" lay-filter="sreach">
+                                查询
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+                <!--<div class="layui-card-body">-->
+                <!--<table class="layui-table layui-form" id="table1">-->
+                <!--<thead>-->
+                <!--<tr style="background: #F8E5E5;">-->
+                <!--<th>用户编号</th>-->
+                <!--<th>用户名</th>-->
+                <!--<th>用户实名</th>-->
+                <!--<th>用户经验</th>-->
+                <!--<th>用户身份</th>-->
+                <!--<th>到期时间</th>-->
+                <!--<th>操作</th>-->
+                <!--</tr>-->
+                <!--</thead>-->
+                <!--<tbody>-->
+
+                <!--</tbody>-->
+                <!--</table>-->
+                <!--</div>-->
+                <div id="publishesChart" style="width: 650px;height:400px;display: inline-block"></div>
+                <div id="readingQuantityChart" style="width: 650px;height:400px;display: inline-block"></div>
+                <div id="lafite_pages"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/jquery/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var publishesChart = echarts.init(document.getElementById('publishesChart'));
+    var readingQuantityChart = echarts.init(document.getElementById('readingQuantityChart'));
+    //博客数数据
+    var publishes = new Array();
+    //阅读量数据
+    var readingQuantity = new Array();
+    //默认查询最近7天
+    var day = 7;
+    //x轴数据
+    var x_data = new Array();
+
+    //设置基础信息
+    $(function () {
+        var strings = window.location.search.split("=")[1];
+        if (strings !== null && strings !== '' && strings !== undefined){
+            day = strings;
+        }
+        //设置x轴数据
+        x_data = new Array();
+        for (var i = 0; i < day; i++) {
+            x_data[i]=((i+1)+"天前");
+        }
+
+        // 发表博客数
+        publishesOption = {
+            title: {
+                text: '最近' + day + '天的发表博客数'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['博客数']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: x_data
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+                {
+                    name: '博客数',
+                    type: 'line',
+                    stack: '总量',
+                    itemStyle: {
+                        normal: {
+                            color: '#000000',
+                            lineStyle: {
+                                color: '#00FF00'
+                            }
+                        }
+                    },
+                    data: publishes
+                }
+            ]
+        };
+        //阅读量
+        readingQuantityOption = {
+            title: {
+                text: '最近' + day + '天的阅读量'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['阅读量']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: x_data
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+                {
+                    name: '阅读量',
+                    type: 'line',
+                    stack: '总量',
+                    itemStyle: {
+                        normal: {
+                            color: '#000000',
+                            lineStyle: {
+                                color: '#00FFFF'
+                            }
+                        }
+                    },
+                    data: readingQuantity
+                }
+            ]
+        };
+
+    });
+
+
+
+
+    $(function () {
+
+        $.ajaxSetup({
+            async: false
+        });
+        var url1 = "getPublishes?day="+day;
+        //请求博客数数据
+        $.get(url1, function (data) {
+            for (var item in data) {
+                publishes.push(data[item])
+            }
+            publishes = publishes.slice(0, day);
+        });
+        //请求阅读量数据
+        var url2 = "getReadingQuantity?day="+day;
+        $.get(url2,function (data) {
+            for (var item in data) {
+                readingQuantity.push(data[item])
+
+            }
+            readingQuantity = readingQuantity.slice(0, day);
+        });
+        // 使用刚指定的配置项和数据显示图表。
+        publishesChart.setOption(publishesOption);
+        readingQuantityChart.setOption(readingQuantityOption);
+    });
+
+</script>
+
+
+</body>
+</html>

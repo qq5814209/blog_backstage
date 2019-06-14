@@ -7,335 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863057a7-383d-477e-a8a0-bcc948e3f0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/CbiInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/VipInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edituser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/StatisticalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/StatisticalMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/StatisticalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/StatisticalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/vo/StatisticalVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/StatisticalMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statistical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/blog_backstage_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/Collect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/Favorites.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/pojotest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MySql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MySql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/adduser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adduser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/information_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/information_management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/project_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/project_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/project_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/project_management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/trading_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/trading_center.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/trading_center2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/trading_center2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/layui.mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/rate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/ace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/ext-searchbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/mode-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/snippets/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/theme-tomorrow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/worker-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/MySql.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlogInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_adsense.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_friendship_link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_news_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_trading_center.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/adduser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/adsense.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/authstr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/cate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/city.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/xadmin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/data_audit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_cooperative.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_farm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_unit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/friendship_link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/aiwrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/demo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/head_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/information_management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/jquery/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/js/xadmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/js/xcity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/launch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/layui.mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/rate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/news_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_approval.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_audit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_release.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/role-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/rolelist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/trading_center.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/trading_center2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/userlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/welcome1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MySql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MySql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -343,6 +26,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -361,117 +47,241 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-356465168">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="java" value="16" />
+          <entry key="js" value="2" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="16" />
+          <entry key="JavaScript" value="2" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="html" value="1179" />
+          <entry key="java" value="608" />
+          <entry key="xml" value="153" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1179" />
+          <entry key="JAVA" value="608" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SQL" value="5" />
+          <entry key="XML" value="148" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/StatisticalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="76" column="45" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="45" />
+            <state relative-caret-position="496">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/StatisticalService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="88">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/StatisticalServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+            <state relative-caret-position="491">
+              <caret line="40" column="68" lean-forward="true" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/StatisticalMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="374">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/StatisticalVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1312#1313#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1684#1685#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1739#1740#0" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
+                <element signature="e#1836#1837#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2028#2029#0" expanded="true" />
+                <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2091#2092#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2158#2159#0" expanded="true" />
+                <element signature="e#2192#2193#0" expanded="true" />
+                <element signature="e#2221#2222#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+                <element signature="e#2288#2289#0" expanded="true" />
+                <element signature="e#2322#2323#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2379#2380#0" expanded="true" />
+                <element signature="e#2418#2419#0" expanded="true" />
+                <element signature="e#2452#2453#0" expanded="true" />
+                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2509#2510#0" expanded="true" />
+                <element signature="e#2548#2549#0" expanded="true" />
+                <element signature="e#2582#2583#0" expanded="true" />
+                <element signature="e#2611#2612#0" expanded="true" />
+                <element signature="e#2639#2640#0" expanded="true" />
+                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="e#2712#2713#0" expanded="true" />
+                <element signature="e#2741#2742#0" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="e#2842#2843#0" expanded="true" />
+                <element signature="e#2871#2872#0" expanded="true" />
+                <element signature="e#2899#2900#0" expanded="true" />
+                <element signature="e#2938#2939#0" expanded="true" />
+                <element signature="e#2972#2973#0" expanded="true" />
+                <element signature="e#3001#3002#0" expanded="true" />
+                <element signature="e#3029#3030#0" expanded="true" />
+                <element signature="e#3068#3069#0" expanded="true" />
+                <element signature="e#3102#3103#0" expanded="true" />
+                <element signature="e#3131#3132#0" expanded="true" />
+                <element signature="e#3159#3160#0" expanded="true" />
+                <element signature="e#3198#3199#0" expanded="true" />
+                <element signature="e#3232#3233#0" expanded="true" />
+                <element signature="e#3261#3262#0" expanded="true" />
+                <element signature="e#3289#3290#0" expanded="true" />
+                <element signature="e#3328#3329#0" expanded="true" />
+                <element signature="e#3362#3363#0" expanded="true" />
+                <element signature="e#3391#3392#0" expanded="true" />
+                <element signature="e#3419#3420#0" expanded="true" />
+                <element signature="e#3458#3459#0" expanded="true" />
+                <element signature="e#3492#3493#0" expanded="true" />
+                <element signature="e#3521#3522#0" expanded="true" />
+                <element signature="e#3549#3550#0" expanded="true" />
+                <element signature="e#3588#3589#0" expanded="true" />
+                <element signature="e#3622#3623#0" expanded="true" />
+                <element signature="e#3651#3652#0" expanded="true" />
+                <element signature="e#3679#3680#0" expanded="true" />
+                <element signature="e#3718#3719#0" expanded="true" />
+                <element signature="e#3752#3753#0" expanded="true" />
+                <element signature="e#3781#3782#0" expanded="true" />
+                <element signature="e#3809#3810#0" expanded="true" />
+                <element signature="e#3848#3849#0" expanded="true" />
+                <element signature="e#3882#3883#0" expanded="true" />
+                <element signature="e#3911#3912#0" expanded="true" />
+                <element signature="e#3939#3940#0" expanded="true" />
+                <element signature="e#3978#3979#0" expanded="true" />
+                <element signature="e#4012#4013#0" expanded="true" />
+                <element signature="e#4041#4042#0" expanded="true" />
+                <element signature="e#4069#4070#0" expanded="true" />
+                <element signature="e#4108#4109#0" expanded="true" />
+                <element signature="e#4142#4143#0" expanded="true" />
+                <element signature="e#4171#4172#0" expanded="true" />
+                <element signature="e#4199#4200#0" expanded="true" />
+                <element signature="e#4238#4239#0" expanded="true" />
+                <element signature="e#4272#4273#0" expanded="true" />
+                <element signature="e#4301#4302#0" expanded="true" />
+                <element signature="e#4329#4330#0" expanded="true" />
+                <element signature="e#4368#4369#0" expanded="true" />
+                <element signature="e#4402#4403#0" expanded="true" />
+                <element signature="e#4431#4432#0" expanded="true" />
+                <element signature="e#4459#4460#0" expanded="true" />
+                <element signature="e#4498#4499#0" expanded="true" />
+                <element signature="e#4532#4533#0" expanded="true" />
+                <element signature="e#4561#4562#0" expanded="true" />
+                <element signature="e#4589#4590#0" expanded="true" />
+                <element signature="e#4628#4629#0" expanded="true" />
+                <element signature="e#4662#4663#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StatisticalMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/statistical.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/completed_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="257" column="44" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/editOrder.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1239">
-              <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="215" column="60" selection-start-line="215" selection-start-column="60" selection-end-line="215" selection-end-column="60" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -485,6 +295,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -505,15 +316,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/adduser.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/userlist.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Favorites.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/edituser.html" />
@@ -546,7 +348,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/CbiInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CbiInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/editOrder.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/backlog_order.html" />
@@ -556,8 +357,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/completed_order.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/SevenDayVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/PublishesVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/StatisticalVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/service/StatisticalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/StatisticalServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/StatisticalMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/StatisticalMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/StatisticalController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statistical.html" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -569,8 +389,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:/apache-maven-3.6.0-bin/apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -601,6 +421,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -632,15 +453,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -649,7 +461,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -659,7 +470,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -669,17 +479,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -689,10 +488,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
@@ -715,6 +522,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
@@ -728,15 +543,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -745,17 +560,18 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\MavenProject\blog_backstage\src\main\webapp\images" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.me.mapper" />
+      <recent name="com.me.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\blog_backstage\src\main\webapp\js" />
       <recent name="F:\MavenProject\blog_backstage\src\main\webapp" />
       <recent name="F:\MavenProject\blog_backstage\src\main\webapp\js" />
       <recent name="F:\MavenProject\blog_backstage" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.me.mapper" />
-      <recent name="com.me.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MavenProject\blog_backstage\src\main\webapp\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -771,9 +587,102 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 8.5.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.40" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/login.html" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_blog_backstage" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7705" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="7706" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -784,19 +693,18 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_backstage" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_backstage_2" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52225" />
+        <option name="DEBUG_PORT" value="7717" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="52226" />
+        <option name="DEBUG_PORT" value="7718" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -880,6 +788,101 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_blog_backstage_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7717" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="7718" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -899,6 +902,7 @@
       <workItem from="1560389510485" duration="10528000" />
       <workItem from="1560407321805" duration="12540000" />
       <workItem from="1560423926576" duration="15456000" />
+      <workItem from="1560476468259" duration="14723000" />
     </task>
     <task id="LOCAL-00001" summary="登录">
       <created>1560241117323</created>
@@ -911,7 +915,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90783000" />
+    <option name="totallyTimeSpent" value="105506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -923,9 +927,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22520107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -934,24 +938,26 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6388102" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30151844" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.09436008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.27548808" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.4099783" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.31127983" />
+      <window_info anchor="right" id="Maven Projects" weight="0.18656716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1008,147 +1014,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="登录" />
     <option name="LAST_COMMIT_MESSAGE" value="登录" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blog_backstage$Tomcat_8_5_40.ic" NAME="Tomcat 8.5.40 Coverage Results" MODIFIED="1560305995342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MySql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/edituser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2378">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/project_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#blockquote#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/project_management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="243" column="13" lean-forward="true" selection-start-line="223" selection-end-line="243" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editcomment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="188" column="41" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/information_management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="219" column="18" lean-forward="true" selection-start-line="219" selection-start-column="18" selection-end-line="219" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -1160,36 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1221,9 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,9 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="43" column="34" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1261,28 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1290,9 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,13 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,20 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VipInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1335,16 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,13 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="141" column="94" selection-start-line="141" selection-start-column="79" selection-end-line="141" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CbiInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1380,22 +1161,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
           <caret line="89" column="25" lean-forward="true" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CbiInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="418">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/completed_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5852">
+          <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5654">
+          <caret line="257" column="44" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4796">
+          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VipInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1410,163 +1301,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2296#2297#0" expanded="true" />
-            <element signature="e#2332#2333#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2406#2407#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CbiInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="1474">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="257" column="44" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="44" />
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="750">
           <caret line="76" column="45" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/completed_order.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/StatisticalService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+        <state relative-caret-position="88">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/StatisticalMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/StatisticalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="40" column="68" lean-forward="true" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3828">
+          <caret line="86" column="75" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5368">
+          <caret line="244" column="17" lean-forward="true" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StatisticalMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/echarts-gl.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/StatisticalVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2379#2380#0" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
+            <element signature="e#2452#2453#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2582#2583#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2741#2742#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="true" />
+            <element signature="e#2938#2939#0" expanded="true" />
+            <element signature="e#2972#2973#0" expanded="true" />
+            <element signature="e#3001#3002#0" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#3068#3069#0" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="e#3198#3199#0" expanded="true" />
+            <element signature="e#3232#3233#0" expanded="true" />
+            <element signature="e#3261#3262#0" expanded="true" />
+            <element signature="e#3289#3290#0" expanded="true" />
+            <element signature="e#3328#3329#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3391#3392#0" expanded="true" />
+            <element signature="e#3419#3420#0" expanded="true" />
+            <element signature="e#3458#3459#0" expanded="true" />
+            <element signature="e#3492#3493#0" expanded="true" />
+            <element signature="e#3521#3522#0" expanded="true" />
+            <element signature="e#3549#3550#0" expanded="true" />
+            <element signature="e#3588#3589#0" expanded="true" />
+            <element signature="e#3622#3623#0" expanded="true" />
+            <element signature="e#3651#3652#0" expanded="true" />
+            <element signature="e#3679#3680#0" expanded="true" />
+            <element signature="e#3718#3719#0" expanded="true" />
+            <element signature="e#3752#3753#0" expanded="true" />
+            <element signature="e#3781#3782#0" expanded="true" />
+            <element signature="e#3809#3810#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3882#3883#0" expanded="true" />
+            <element signature="e#3911#3912#0" expanded="true" />
+            <element signature="e#3939#3940#0" expanded="true" />
+            <element signature="e#3978#3979#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4041#4042#0" expanded="true" />
+            <element signature="e#4069#4070#0" expanded="true" />
+            <element signature="e#4108#4109#0" expanded="true" />
+            <element signature="e#4142#4143#0" expanded="true" />
+            <element signature="e#4171#4172#0" expanded="true" />
+            <element signature="e#4199#4200#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#4272#4273#0" expanded="true" />
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4329#4330#0" expanded="true" />
+            <element signature="e#4368#4369#0" expanded="true" />
+            <element signature="e#4402#4403#0" expanded="true" />
+            <element signature="e#4431#4432#0" expanded="true" />
+            <element signature="e#4459#4460#0" expanded="true" />
+            <element signature="e#4498#4499#0" expanded="true" />
+            <element signature="e#4532#4533#0" expanded="true" />
+            <element signature="e#4561#4562#0" expanded="true" />
+            <element signature="e#4589#4590#0" expanded="true" />
+            <element signature="e#4628#4629#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/StatisticalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statistical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="215" column="60" selection-start-line="215" selection-start-column="60" selection-end-line="215" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1576,6 +1551,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>blog_backstage:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1587,6 +1563,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1621,10 +1598,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>blog_backstage</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1644,6 +1623,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: cglib:cglib:3.2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
