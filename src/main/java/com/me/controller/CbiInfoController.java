@@ -1,5 +1,7 @@
 package com.me.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.me.pojo.CbiInfo;
 import com.me.service.CbiInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +28,11 @@ public class CbiInfoController {
      */
     @ResponseBody
     @RequestMapping("selectCbiInfo")
-    public Object selectCbiInfo() {
+    public Object selectCbiInfo(@RequestBody CbiInfo cbiInfo) {
+        PageHelper.startPage(cbiInfo.getCurrentPage(), cbiInfo.getPageSize());
         List<CbiInfo> cbiInfos = cbiInfoService.selectCbiInfo();
-        return cbiInfos;
+        PageInfo<CbiInfo> cbiInfoPageInfo = new PageInfo<CbiInfo>(cbiInfos);
+        return cbiInfoPageInfo;
     }
 
     /**

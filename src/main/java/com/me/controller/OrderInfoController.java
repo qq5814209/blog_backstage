@@ -1,5 +1,7 @@
 package com.me.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.me.pojo.Order;
 import com.me.service.OrderInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +28,11 @@ public class OrderInfoController {
      */
     @ResponseBody
     @RequestMapping("selectCompletedOrderInfo")
-    public Object selectCompletedOrderInfo() {
+    public Object selectCompletedOrderInfo(@RequestBody Order order) {
+        PageHelper.startPage(order.getCurrentPage(), order.getPageSize());
         List<Order> orderList = orderInfoService.selectCompletedOrderInfo();
-        return orderList;
+        PageInfo<Order> orderPageInfo = new PageInfo<Order>(orderList);
+        return orderPageInfo;
     }
     /**
      * 查询所有未完成订单
@@ -36,9 +40,11 @@ public class OrderInfoController {
      */
     @ResponseBody
     @RequestMapping("selectBacklogOrderInfo")
-    public Object selectBacklogOrderInfo() {
+    public Object selectBacklogOrderInfo(@RequestBody Order order) {
+        PageHelper.startPage(order.getCurrentPage(), order.getPageSize());
         List<Order> orderList = orderInfoService.selectBacklogOrderInfo();
-        return orderList;
+        PageInfo<Order> orderPageInfo = new PageInfo<Order>(orderList);
+        return orderPageInfo;
     }
 
     /**

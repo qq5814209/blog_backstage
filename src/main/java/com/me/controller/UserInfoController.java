@@ -1,5 +1,7 @@
 package com.me.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.me.pojo.UserInfo;
 import com.me.service.UserInfoService;
 import com.me.vo.UserInfoVo;
@@ -58,9 +60,11 @@ public class UserInfoController {
      */
     @ResponseBody
     @RequestMapping("selectUserInfo")
-    public Object selectUserInfo() {
+    public Object selectUserInfo(@RequestBody UserInfoVo userInfoVo) {
+        PageHelper.startPage(userInfoVo.getCurrentPage(), userInfoVo.getPageSize());
         List<UserInfoVo> userInfoVos = userInfoService.selectUserInfo();
-        return userInfoVos;
+        PageInfo<UserInfoVo> userInfoVoPageInfo = new PageInfo<UserInfoVo>(userInfoVos);
+        return userInfoVoPageInfo;
     }
 
     /**

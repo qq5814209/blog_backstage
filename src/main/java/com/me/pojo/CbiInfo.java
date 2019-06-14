@@ -16,15 +16,36 @@ public class CbiInfo {
     //状态码
     private int status;
 
+    private int currentPage;//当前页
+    private int pageSize;//当前页数据条数
+
     public CbiInfo() {
     }
 
-    public CbiInfo(int cbi_id, String cbi_name, String cbi_number, Double cbi_price, int status) {
+    public CbiInfo(int cbi_id, String cbi_name, String cbi_number, Double cbi_price, int status, int currentPage, int pageSize) {
         this.cbi_id = cbi_id;
         this.cbi_name = cbi_name;
         this.cbi_number = cbi_number;
         this.cbi_price = cbi_price;
         this.status = status;
+        this.currentPage = currentPage;
+        this.pageSize = pageSize;
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
     public int getCbi_id() {
@@ -75,6 +96,8 @@ public class CbiInfo {
                 ", cbi_number='" + cbi_number + '\'' +
                 ", cbi_price=" + cbi_price +
                 ", status=" + status +
+                ", currentPage=" + currentPage +
+                ", pageSize=" + pageSize +
                 '}';
     }
 }

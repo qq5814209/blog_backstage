@@ -15,7 +15,10 @@ public class WZCZVo {
     private int browseCount;
     private int praiseCount;
 
-    public WZCZVo(int blog_id, String blog_title, String type_name, String name, String create_time, int commentCount, int browseCount, int praiseCount) {
+    private int currentPage;//当前页
+    private int pageSize;//当前页数据条数
+
+    public WZCZVo(int blog_id, String blog_title, String type_name, String name, String create_time, int commentCount, int browseCount, int praiseCount, int currentPage, int pageSize) {
         this.blog_id = blog_id;
         this.blog_title = blog_title;
         this.type_name = type_name;
@@ -24,9 +27,27 @@ public class WZCZVo {
         this.commentCount = commentCount;
         this.browseCount = browseCount;
         this.praiseCount = praiseCount;
+        this.currentPage = currentPage;
+        this.pageSize = pageSize;
     }
 
     public WZCZVo() {
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
     public int getBlog_id() {
@@ -104,6 +125,8 @@ public class WZCZVo {
                 ", commentCount=" + commentCount +
                 ", browseCount=" + browseCount +
                 ", praiseCount=" + praiseCount +
+                ", currentPage=" + currentPage +
+                ", pageSize=" + pageSize +
                 '}';
     }
 }

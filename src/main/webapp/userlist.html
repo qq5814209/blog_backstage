@@ -116,6 +116,18 @@
                             </table>
                         </div>
                         <div id="lafite_pages"></div>
+                        <div class="row" style="text-align:center">
+                            <ul class="pagination" id="pagination">
+                                <li id="btns">
+
+                                </li>
+                            </ul>
+                            <p class="text-primary">当前第:<span id="currentPage"></span>页 共计<span
+                                    id="totalPage"></span>页&nbsp;&nbsp;&nbsp;<input type="text" id="t" style="width: 25px;height: 22px">
+                                <button class="btn-primary" onclick='goto()'>跳转</button>
+                            </p>
+                            <p class="text-primary">总记录数:<span id="totalNums"></span></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -177,45 +189,100 @@
             //         });
             // }
 
-            function getAllUserInfo() {
+            $(function () {
+                init(1, 3);
+            });
+
+            function goNormal(n) {
+                $("#table1 tr:not(:first)").empty("");
+                $("#btns").find("button").remove();
+                init(n, 3);
+            }
+
+            function init(currentPage, pageSize) {
                 $.ajax({
                     type: 'POST',
-                    url: "selectUserInfo",
-                    contentType: "application/json",
-                    success: function (data) {
-                        //循环
-                        var tabObj = $("#table1");
-                        $(data).each(function (index, item) {
-                            var trHtml = "<tr>\n" +
-                                "<td>"+item.user_id+"</td>\n" +
-                                "<td>"+item.user_name+"</td>\n" +
-                                "<td>"+item.name+"</td>\n" +
-                                "<td>"+item.value+"</td>\n" +
-                                "<td>"+item.vip_name+"</td>\n" +
-                                "<td>"+item.end_time+"</td>\n" +
+                    url: 'selectUserInfo',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({
+                        "currentPage": currentPage,
+                        "pageSize": pageSize
+                    }),
+                    success: function (responseText) {
+                        console.log(responseText)
+                        //给表格添加数据
+                        for (var i = 0; i < responseText.list.length; i++) {
+                            var str =  "<tr><td>"+responseText.list[i].user_id+"</td>" +
+                                "<td>"+responseText.list[i].user_name+"</td>\n" +
+                                "<td>"+responseText.list[i].name+"</td>\n" +
+                                "<td>"+responseText.list[i].value+"</td>\n" +
+                                "<td>"+responseText.list[i].vip_name+"</td>\n" +
+                                "<td>"+responseText.list[i].end_time+"</td>\n" +
                                 "<td class=\"td-manage\">\n" +
-                                "<a class=\"lafitewu_auditing\" title=\"编辑\" onclick = \"jumpToEd(" + item.user_id +")\" href=\"javascript:;\">\n" +
+                                "<a class=\"lafitewu_auditing\" title=\"编辑\" onclick = \"jumpToEd(" + responseText.list[i].user_id +")\" href=\"javascript:;\">\n" +
                                 "编辑\n" +
                                 "</a>\n" +
-                                "<a class=\"lafitewu_del lafitewu_margin_left_10\" title=\"删除\" onclick='deleteUserInfoById(" + item.user_id + ")' href=\"javascript:;\">\n" +
+                                "<a class=\"lafitewu_del lafitewu_margin_left_10\" title=\"删除\" onclick='deleteUserInfoById(" + responseText.list[i].user_id+ ")' href=\"javascript:;\">\n" +
                                 "删除\n" +
                                 "</a>\n" +
-                                "</td>\n" +
+                                "</td>\n"+
                                 "</tr>";
-                            // console.log(trHtml); //  2pm
-                            //将字符串添加到table中
-                            tabObj.append(trHtml);
-                        });
-                    },
-                    error: function (data) {
+                            $("#table1").append(str);
+                        }
 
+                        //动态生成页数
+                        for (var i = 0; i < responseText.lastPage; i++) {
+                            if (i == 0) {
+                                //首页
+                                var buttonFirst = $("<button onclick='goNormal(" + responseText.firstPage + ")' class='btn-primary'>首页</button>");
+                                //是否存有上页
+                                if (responseText.pageNum == 1) {
+                                    var buttonPrep = $("<button onclick='goNormal(" + responseText.prePage + ")' class=\"btn-primary\" disabled='disabled'>上一页</button>")
+                                } else {
+                                    var buttonPrep = $("<button onclick='goNormal(" + responseText.prePage + ")' class=\"btn-primary\">上一页</button>")
+                                }
+                                $("#btns").append(buttonFirst);
+                                $("#btns").append(buttonPrep);
+                            }
+                            if (i == responseText.pageNum - 1) {
+                                var button = $("<button onclick='goNormal(" + (i + 1) + ")' class=\"btn-success\">" + (i + 1) + "</button>")
+                            } else {
+                                var button = $("<button onclick='goNormal(" + (i + 1) + ")' class=\"btn-primary\">" + (i + 1) + "</button>")
+                            }
+                            $("#btns").append(button);
+                            if (i == responseText.lastPage - 1) {
+                                //尾页
+                                var buttonEnd = $("<button onclick='goNormal(" + responseText.lastPage + ")' class=\"btn-primary\">尾页</button>");
+                                if (responseText.pageNum == responseText.lastPage) {
+                                    var buttonNext = $("<button onclick='goNormal(" + responseText.nextPage + ")' class=\"btn-primary\" disabled='disabled'>下一页</button>")
+                                } else {
+                                    var buttonNext = $("<button onclick='goNormal(" + responseText.nextPage + ")' class=\"btn-primary\">下一页</button>")
+                                }
+                                $("#btns").append(buttonNext);
+                                $("#btns").append(buttonEnd);
+                            }
+
+                        }
+                        //当前页数
+                        $("#currentPage").html(responseText.pageNum);
+                        //总页数
+                        $("#totalPage").html(responseText.lastPage);
+                        //总记录数
+                        $("#totalNums").html(responseText.total);
                     },
-                    dataType: "json"
+                    error: function (message) {
+                        console.log(message);
+                    },
+                    dataType: 'json'
                 });
-                //2.遍历数据生成行
-                //3.将行添加到table
             }
-            getAllUserInfo();
+
+            function goto() {
+                $("#table1 tr:not(:first)").empty("");
+                $("#btns").find("button").remove();
+                init($("#t").val(), 3);
+            }
+
 
             function jumpToEd(id) {
                 var url = "edituser.html?user_id=" + id;

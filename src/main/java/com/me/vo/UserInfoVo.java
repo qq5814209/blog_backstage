@@ -17,16 +17,37 @@ public class UserInfoVo {
     //到期时间
     private String end_time;
 
+
+    private int currentPage;//当前页
+    private int pageSize;//当前页数据条数
     public UserInfoVo() {
     }
 
-    public UserInfoVo(int user_id, String user_name, String name, int value, String vip_name, String end_time) {
+    public UserInfoVo(int user_id, String user_name, String name, int value, String vip_name, String end_time, int currentPage, int pageSize) {
         this.user_id = user_id;
         this.user_name = user_name;
         this.name = name;
         this.value = value;
         this.vip_name = vip_name;
         this.end_time = end_time;
+        this.currentPage = currentPage;
+        this.pageSize = pageSize;
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 
     public int getUser_id() {
@@ -86,6 +107,8 @@ public class UserInfoVo {
                 ", value=" + value +
                 ", vip_name='" + vip_name + '\'' +
                 ", end_time='" + end_time + '\'' +
+                ", currentPage=" + currentPage +
+                ", pageSize=" + pageSize +
                 '}';
     }
 }

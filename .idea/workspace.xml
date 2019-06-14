@@ -7,335 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863057a7-383d-477e-a8a0-bcc948e3f0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/CbiInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/VipInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edituser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/BlogInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/Collect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/Favorites.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/pojotest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/BlogInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/BlogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/BlogInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MySql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MySql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/adduser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adduser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backlog_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backlog_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/completed_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/completed_order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/information_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/information_management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/project_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/project_edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/project_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/project_management.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/trading_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/trading_center.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/trading_center2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/trading_center2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/layui.mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/rate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/Layui-KnifeZ/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/ace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/ext-searchbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/mode-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/snippets/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/theme-tomorrow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/Content/ace/worker-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/MySql.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlogInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_adsense.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_friendship_link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_news_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/add_trading_center.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/adduser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/adsense.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/authstr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/cate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/city.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/theme5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/css/xadmin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/data_audit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_cooperative.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_farm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/detailed_information_unit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fontAlibaba/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/fonts/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/friendship_link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/aiwrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/demo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/images/head_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/information_management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/jquery/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/js/xadmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/js/xcity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/launch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/layui.mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/rate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/lib/layui/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/news_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/order-list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_approval.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_audit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/project_release.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/role-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/rolelist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/trading_center.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/trading_center2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/userlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/blog_backstage-1.0-SNAPSHOT/welcome1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MySql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MySql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -364,112 +57,161 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="76" column="45" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="45" />
+            <state relative-caret-position="485">
+              <caret line="135" column="22" selection-start-line="124" selection-start-column="16" selection-end-line="135" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8570#8576#0" expanded="true" />
+                <element signature="e#8582#8588#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/trading_center.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+            <state relative-caret-position="327">
+              <caret line="130" column="22" selection-start-line="119" selection-start-column="16" selection-end-line="130" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8347#8353#0" expanded="true" />
+                <element signature="e#8359#8365#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/trading_center2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+            <state relative-caret-position="67">
+              <caret line="252" column="146" selection-start-line="252" selection-start-column="146" selection-end-line="252" selection-end-column="146" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8388#8394#0" expanded="true" />
+                <element signature="e#8400#8406#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/completed_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="257" column="44" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/editOrder.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1239">
-              <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1029#1038#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1160#1169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="34" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+              <folding>
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="27" column="34" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="33" column="76" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -505,57 +247,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/adduser.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/userlist.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Favorites.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/edituser.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/editcomment.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/project_edit.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/information_management.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/CommentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/controller/VipController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/editVipInfo.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/editCbiInfo.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/VipInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/VipInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/VipInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/VipInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/addVipInfo.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/trading_center2.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/addVip.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/trading_center.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/addCbi.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/CbiInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/CbiInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/CbiInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CbiInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/editOrder.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/backlog_order.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/BlogInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/project_management.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/userlist.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/information_management.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/completed_order.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/backlog_order.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/trading_center.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/trading_center2.html" />
       </list>
     </option>
   </component>
@@ -591,8 +333,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="605" />
-    <option name="y" value="35" />
+    <option name="x" value="606" />
+    <option name="y" value="36" />
     <option name="width" value="1385" />
     <option name="height" value="745" />
   </component>
@@ -661,16 +403,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="me" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -691,8 +423,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
@@ -700,14 +441,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog_backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog_backstage" type="b2602c69:ProjectViewProjectNode" />
@@ -736,7 +469,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -899,6 +632,8 @@
       <workItem from="1560389510485" duration="10528000" />
       <workItem from="1560407321805" duration="12540000" />
       <workItem from="1560423926576" duration="15456000" />
+      <workItem from="1560439761501" duration="223000" />
+      <workItem from="1560473954562" duration="10063000" />
     </task>
     <task id="LOCAL-00001" summary="登录">
       <created>1560241117323</created>
@@ -907,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560241117323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="还差两个统计加分页加搜索框">
+      <created>1560439881396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560439881396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90783000" />
+    <option name="totallyTimeSpent" value="101069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,7 +667,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22520107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22520107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -1010,99 +752,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录" />
+    <MESSAGE value="还差两个统计加分页加搜索框" />
+    <option name="LAST_COMMIT_MESSAGE" value="还差两个统计加分页加搜索框" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blog_backstage$Tomcat_8_5_40.ic" NAME="Tomcat 8.5.40 Coverage Results" MODIFIED="1560305995342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MySql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/edituser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2378">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/project_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#blockquote#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/project_management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="243" column="13" lean-forward="true" selection-start-line="223" selection-end-line="243" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/BlogInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1114,16 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="188" column="41" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/information_management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="219" column="18" lean-forward="true" selection-start-line="219" selection-start-column="18" selection-end-line="219" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,43 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,52 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/addVip.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,34 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/trading_center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/addCbi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="57" column="36" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/trading_center2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" column="130" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="130" />
         </state>
       </provider>
     </entry>
@@ -1376,45 +919,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CbiInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="89" column="25" lean-forward="true" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        <state relative-caret-position="485">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5232">
+          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/util/Md5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#991#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/UserInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+          <folding>
+            <element signature="e#1816#1828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="129" column="30" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="129" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/BlogInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/vo/WZCZVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/project_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="152" column="29" lean-forward="true" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/BlogInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="337">
+          <caret line="35" column="70" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1099#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="3504">
+          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
           <folding>
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
             <element signature="e#1050#1051#0" expanded="true" />
             <element signature="e#1081#1082#0" expanded="true" />
             <element signature="e#1126#1127#0" expanded="true" />
@@ -1459,114 +1160,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CbiInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/OrderInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/service/impl/OrderInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/mapper/OrderInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/editOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="257" column="44" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/OrderInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="45" />
+        <state relative-caret-position="1339">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1057#1064#0" expanded="true" />
+            <element signature="e#1512#1519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/information_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="119" column="30" lean-forward="true" selection-start-line="108" selection-start-column="24" selection-end-line="119" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/completed_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+        <state relative-caret-position="495">
+          <caret line="317" column="5" lean-forward="true" selection-start-line="222" selection-start-column="3" selection-end-line="317" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backlog_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="485">
+          <caret line="135" column="22" selection-start-line="124" selection-start-column="16" selection-end-line="135" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8570#8576#0" expanded="true" />
+            <element signature="e#8582#8588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="27" column="34" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/CbiInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="34" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/pojo/VipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+          <folding>
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/VipInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1160#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/controller/CbiInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1029#1038#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/trading_center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="130" column="22" selection-start-line="119" selection-start-column="16" selection-end-line="130" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8347#8353#0" expanded="true" />
+            <element signature="e#8359#8365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/trading_center2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="252" column="146" selection-start-line="252" selection-start-column="146" selection-end-line="252" selection-end-column="146" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8388#8394#0" expanded="true" />
+            <element signature="e#8400#8406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -109,19 +109,30 @@
                         </tbody>
                     </table>
                 </div>
-                <!-- <div class="layui-card-body ">
-                    <div class="page">
-                        <div>
-                          <a class="prev" href="">&lt;&lt;</a>
-                          <a class="num" href="">1</a>
-                          <span class="current">2</span>
-                          <a class="num" href="">3</a>
-                          <a class="num" href="">489</a>
-                          <a class="next" href="">&gt;&gt;</a>
-                        </div>
-                    </div>
-                </div> -->
-                <!--                        <div id="lafite_pages"></div>-->
+                <div class="row" style="text-align:center">
+                    <ul class="pagination" id="pagination">
+                        <li id="btns">
+
+                        </li>
+                    </ul>
+                    <p class="text-primary">当前第:<span id="currentPage"></span>页 共计<span
+                            id="totalPage"></span>页&nbsp;&nbsp;&nbsp;<input type="text" id="t" style="width: 25px;height: 22px">
+                        <button class="btn-primary" onclick='goto()'>跳转</button>
+                    </p>
+                    <p class="text-primary">总记录数:<span id="totalNums"></span></p>
+                </div>
+<!--                <div class="row" style="text-align:center">-->
+<!--                    <ul class="pagination" id="pagination">-->
+<!--                        <li id="btns">-->
+
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <p class="text-primary">当前第:<span id="currentPage"></span>页 共计<span-->
+<!--                            id="totalPage"></span>页&nbsp;&nbsp;&nbsp;<input type="text" id="t" style="width: 25px;height: 22px">-->
+<!--                        <button class="btn-primary" onclick='goto()'>跳转</button>-->
+<!--                    </p>-->
+<!--                    <p class="text-primary">总记录数:<span id="totalNums"></span></p>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
@@ -209,42 +220,102 @@
         });
     }
 
-    function getOrderInfo() {
+    $(function () {
+        init(1, 10);
+    });
+
+    function goNormal(n) {
+        $("#table6 tr:not(:first)").empty("");
+        $("#btns").find("button").remove();
+        init(n, 10);
+    }
+
+    function init(currentPage, pageSize) {
         $.ajax({
             type: 'POST',
-            url: "selectCompletedOrderInfo",
-            contentType: "application/json",
-            success: function (data) {
-                //循环
-                var tabObj = $("#table6");
-                $(data).each(function (index, item) {
-                    var trHtml = "<tr><td>"+item.order_id+"</td>" +
-                        "<td>"+item.user_id+"</td>\n" +
-                        "<td>"+item.cbi_id+"</td>\n" +
-                        "<td>"+item.vip_id+"</td>\n" +
-                        "<td>"+item.price+"</td>\n" +
-                        "<td>"+item.cbi_number+"</td>\n" +
-                        "<td>"+item.vip_time+"</td>\n" +
-                        "<td>"+item.order_time+"</td>\n" +
-                        "<td>"+item.order_number+"</td>\n" +
+            url: 'selectCompletedOrderInfo',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({
+                "currentPage": currentPage,
+                "pageSize": pageSize
+            }),
+            success: function (responseText) {
+                console.log(responseText)
+                //给表格添加数据
+                for (var i = 0; i < responseText.list.length; i++) {
+                    var str =  "<tr><td>"+responseText.list[i].order_id+"</td>" +
+                        "<td>"+responseText.list[i].user_id+"</td>\n" +
+                        "<td>"+responseText.list[i].cbi_id+"</td>\n" +
+                        "<td>"+responseText.list[i].vip_id+"</td>\n" +
+                        "<td>"+responseText.list[i].price+"</td>\n" +
+                        "<td>"+responseText.list[i].cbi_number+"</td>\n" +
+                        "<td>"+responseText.list[i].vip_time+"</td>\n" +
+                        "<td>"+responseText.list[i].order_time+"</td>\n" +
+                        "<td>"+responseText.list[i].order_number+"</td>\n" +
                         "<td class=\"td-manage\">\n" +
-                        "<a class=\"lafitewu_look\" title=\"编辑\" onclick = \"jumpTo(" + item.order_id +")\" href=\"javascript:;\">\n" +
+                        "<a class=\"lafitewu_look\" title=\"编辑\" onclick = \"jumpTo(" + responseText.list[i].order_id +")\" href=\"javascript:;\">\n" +
                         "编辑\n" +
                         "</a>\n" +
-                        "<a class=\"lafitewu_del lafitewu_margin_left_10\" title=\"删除\" onclick='deleteCompletedOrderById(" + item.order_id + ")' href=\"javascript:;\">\n" +
+                        "<a class=\"lafitewu_del lafitewu_margin_left_10\" title=\"删除\" onclick='deleteCompletedOrderById(" + responseText.list[i].order_id + ")' href=\"javascript:;\">\n" +
                         "删除\n" +
                         "</a>\n" +
                         "</td>" +
                         "</tr>";
-                    tabObj.append(trHtml);
-                });
+                    $("#table6").append(str);
+                }
+
+                //动态生成页数
+                for (var i = 0; i < responseText.lastPage; i++) {
+                    if (i == 0) {
+                        //首页
+                        var buttonFirst = $("<button onclick='goNormal(" + responseText.firstPage + ")' class='btn-primary'>首页</button>");
+                        //是否存有上页
+                        if (responseText.pageNum == 1) {
+                            var buttonPrep = $("<button onclick='goNormal(" + responseText.prePage + ")' class=\"btn-primary\" disabled='disabled'>上一页</button>")
+                        } else {
+                            var buttonPrep = $("<button onclick='goNormal(" + responseText.prePage + ")' class=\"btn-primary\">上一页</button>")
+                        }
+                        $("#btns").append(buttonFirst);
+                        $("#btns").append(buttonPrep);
+                    }
+                    if (i == responseText.pageNum - 1) {
+                        var button = $("<button onclick='goNormal(" + (i + 1) + ")' class=\"btn-success\">" + (i + 1) + "</button>")
+                    } else {
+                        var button = $("<button onclick='goNormal(" + (i + 1) + ")' class=\"btn-primary\">" + (i + 1) + "</button>")
+                    }
+                    $("#btns").append(button);
+                    if (i == responseText.lastPage - 1) {
+                        //尾页
+                        var buttonEnd = $("<button onclick='goNormal(" + responseText.lastPage + ")' class=\"btn-primary\">尾页</button>");
+                        if (responseText.pageNum == responseText.lastPage) {
+                            var buttonNext = $("<button onclick='goNormal(" + responseText.nextPage + ")' class=\"btn-primary\" disabled='disabled'>下一页</button>")
+                        } else {
+                            var buttonNext = $("<button onclick='goNormal(" + responseText.nextPage + ")' class=\"btn-primary\">下一页</button>")
+                        }
+                        $("#btns").append(buttonNext);
+                        $("#btns").append(buttonEnd);
+                    }
+
+                }
+                //当前页数
+                $("#currentPage").html(responseText.pageNum);
+                //总页数
+                $("#totalPage").html(responseText.lastPage);
+                //总记录数
+                $("#totalNums").html(responseText.total);
             },
-            error: function (data) {
+            error: function (message) {
+                console.log(message);
             },
-            dataType: "json"
+            dataType: 'json'
         });
     }
-    getOrderInfo();
+
+    function goto() {
+        $("#table6 tr:not(:first)").empty("");
+        $("#btns").find("button").remove();
+        init($("#t").val(), 10);
+    }
 
     function jumpTo(id) {
         var url = "editOrder.html?order_id=" + id;
