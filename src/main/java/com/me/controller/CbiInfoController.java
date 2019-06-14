@@ -54,7 +54,6 @@ public class CbiInfoController {
     @RequestMapping("updateCbiInfoById")
     public Object updateComment(@RequestBody CbiInfo cbiInfo){
         int i = cbiInfoService.updateCbiInfoById(cbiInfo);
-        System.out.println(i);
         if(i>0){
             return true;
         }else {
@@ -87,7 +86,6 @@ public class CbiInfoController {
     @RequestMapping("addCbiInfo")
     public Object addCbiInfo(@RequestBody  CbiInfo cbiInfo){
         int i =cbiInfoService.addCbiInfo(cbiInfo);
-        System.out.println(i);
         if(i>0){
             return true;
         }else {

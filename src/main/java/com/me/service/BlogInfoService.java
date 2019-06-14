@@ -2,6 +2,7 @@ package com.me.service;
 
 import com.me.pojo.BlogInfo;
 import com.me.vo.WZCZVo;
+import com.me.vo.WZJJVo;
 import com.me.vo.WZSHVo;
 
 import java.util.List;
@@ -54,4 +55,17 @@ public interface BlogInfoService {
      * @return
      */
     int soldOutBlogInfoById(int blog_id);
+
+    /**
+     * 查询文章举报
+     * @return
+     */
+    List<WZJJVo> selectReportBlogInfo();
+
+    /**
+     * 根据blog_id处理被举报文章
+     * @param blog_id
+     * @return
+     */
+    int ReportBlogInfoById(int blog_id);
 }

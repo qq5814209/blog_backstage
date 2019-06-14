@@ -54,7 +54,6 @@ public class CommentController {
     @RequestMapping("updateCommentById")
     public Object updateComment(@RequestBody Comment comment){
         int i = commentService.updateCommentById(comment);
-        System.out.println(i);
         if(i>0){
             return true;
         }else {

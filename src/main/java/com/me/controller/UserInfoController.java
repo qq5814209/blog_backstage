@@ -32,9 +32,7 @@ public class UserInfoController {
     @ResponseBody
     @RequestMapping(value = "userLogin", method = RequestMethod.POST)
     public Object login(String user, String password, HttpSession session) {
-        System.out.println(user + " : " + password);
         UserInfo userInfo = userInfoService.login(user, password);
-        System.out.println(userInfo);
         session.setAttribute("userInfo", userInfo);
         return userInfo;
     }
@@ -49,7 +47,6 @@ public class UserInfoController {
     @RequestMapping(value = "islogin", method = RequestMethod.GET)
     public Object islogin(HttpSession session) {
         UserInfo userInfo = (UserInfo) session.getAttribute("userInfo");
-        System.out.println(userInfo);
         return userInfo;
     }
 
@@ -87,7 +84,6 @@ public class UserInfoController {
     @RequestMapping("updateUserInfo")
     public Object updateUserInfo(@RequestBody UserInfo userInfo) {
         int i = userInfoService.updateUserInfoById(userInfo);
-        System.out.println(i);
         if (i > 0) {
             return true;
         } else {

@@ -3,6 +3,7 @@ import com.me.mapper.BlogInfoMapper;
 import com.me.pojo.BlogInfo;
 import com.me.service.BlogInfoService;
 import com.me.vo.WZCZVo;
+import com.me.vo.WZJJVo;
 import com.me.vo.WZSHVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -85,5 +86,22 @@ public class BlogInfoServiceImpl implements BlogInfoService {
      */
     public int soldOutBlogInfoById(int blog_id) {
         return blogInfoMapper.soldOutBlogInfoById(blog_id);
+    }
+
+    /**
+     * 查询文章举报
+     * @return
+     */
+    public List<WZJJVo> selectReportBlogInfo() {
+        return blogInfoMapper.selectReportBlogInfo();
+    }
+
+    /**
+     * 根据blog_id处理被举报文章
+     * @param blog_id
+     * @return
+     */
+    public int ReportBlogInfoById(int blog_id) {
+        return blogInfoMapper.ReportBlogInfoById(blog_id);
     }
 }

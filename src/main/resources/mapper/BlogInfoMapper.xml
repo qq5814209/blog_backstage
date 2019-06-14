@@ -19,6 +19,12 @@
         LEFT JOIN userinfo u ON u.user_id=ub.`user_id`
         ORDER BY b.status ASC
     </select>
+
+    <!--查询所有举报-->
+    <select id="selectReportBlogInfo" resultType="com.me.vo.WZJJVo">
+        SELECT r.report_id,u.name,r.blog_id,r.report_content,r.status FROM report r,userinfo u
+        WHERE r.user_id=u.user_id
+    </select>
     <!--修改页根据blog_id回显-->
     <select id="getBlogInfoById" parameterType="int" resultType="com.me.vo.WZCZVo">
         SELECT bi.blog_id,bi.blog_title,bt.type_name,ui.name,bi.`create_time` FROM bloginfo bi,blog_type bt,userinfo ui,user_blog ub
@@ -52,5 +58,10 @@
     <!--根据blog_id不展示文章-->
     <update id="soldOutBlogInfoById" parameterType="int">
         update bloginfo set status=0 where blog_id=#{blog_id}
+    </update>
+
+    <!--根据blog_id处理被举报文章-->
+    <update id="ReportBlogInfoById" parameterType="int">
+        UPDATE report SET STATUS=0 WHERE blog_id=#{blog_id}
     </update>
 </mapper>

@@ -66,7 +66,6 @@ public class OrderInfoController {
     @RequestMapping("updateOrderById")
     public Object updateOrderById(@RequestBody Order order){
         int i = orderInfoService.updateOrderById(order);
-        System.out.println(i);
         if(i>0){
             return true;
         }else {

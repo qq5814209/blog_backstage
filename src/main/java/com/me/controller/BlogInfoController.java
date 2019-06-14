@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.me.pojo.BlogInfo;
 import com.me.service.BlogInfoService;
 import com.me.vo.WZCZVo;
+import com.me.vo.WZJJVo;
 import com.me.vo.WZSHVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -37,6 +38,7 @@ public class BlogInfoController {
         PageInfo<WZCZVo> wzczPageInfo = new PageInfo<WZCZVo>(wzczVos);
         return wzczPageInfo;
     }
+
     /**
      * 查询所有博客信息审核状态
      *
@@ -49,6 +51,20 @@ public class BlogInfoController {
         List<WZSHVo> wzshVos = blogInfoService.selectAuditBlogInfo();
         PageInfo<WZSHVo> wzshPageInfo = new PageInfo<WZSHVo>(wzshVos);
         return wzshPageInfo;
+    }
+
+    /**
+     * 查询文章举报
+     *
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("selectReportBlogInfo")
+    public Object selectReportBlogInfo(@RequestBody WZJJVo wzjjVo) {
+        PageHelper.startPage(wzjjVo.getCurrentPage(), wzjjVo.getPageSize());
+        List<WZJJVo> wzjjVos = blogInfoService.selectReportBlogInfo();
+        PageInfo<WZJJVo> wzjjVoPageInfo = new PageInfo<WZJJVo>(wzjjVos);
+        return wzjjVoPageInfo;
     }
 
     /**
@@ -73,59 +89,81 @@ public class BlogInfoController {
     public Object updateBlogInfoById(@RequestBody BlogInfo blogInfo) {
         int i = blogInfoService.updateBlogInfoById(blogInfo);
         System.out.println(i);
-        if(i>0){
+        if (i > 0) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
     /**
      * 根据blog_id删除文章
+     *
      * @param blog_id
      * @return
      */
     @ResponseBody
     @RequestMapping("deleteBlogInfoById")
-    public Object deleteBlogInfoById(@RequestParam int blog_id){
+    public Object deleteBlogInfoById(@RequestParam int blog_id) {
         int i = blogInfoService.deleteBlogInfoById(blog_id);
-        if(i!=0){
+        if (i != 0) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
+
     /**
      * 根据blog_id审核文章
+     *
      * @param blog_id
      * @return
      */
     @ResponseBody
     @RequestMapping("AuditBlogInfoById")
-    public Object AuditBlogInfoById(@RequestParam int blog_id){
+    public Object AuditBlogInfoById(@RequestParam int blog_id) {
         int i = blogInfoService.AuditBlogInfoById(blog_id);
-        if(i!=0){
+        if (i != 0) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
     /**
      * 根据blog_id不展示文章
+     *
      * @param blog_id
      * @return
      */
     @ResponseBody
     @RequestMapping("soldOutBlogInfoById")
-    public Object soldOutBlogInfoById(@RequestParam int blog_id){
+    public Object soldOutBlogInfoById(@RequestParam int blog_id) {
         int i = blogInfoService.soldOutBlogInfoById(blog_id);
-        if(i!=0){
+        if (i != 0) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
+    /**
+     * 根据blog_id处理被举报文章
+     *
+     * @param blog_id
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("ReportBlogInfoById")
 
+    public Object ReportBlogInfoById(@RequestParam int blog_id) {
+        int i = blogInfoService.deleteBlogInfoById(blog_id);
+        if (i != 0) {
+            int j = blogInfoService.ReportBlogInfoById(blog_id);
+            if (j != 0) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
